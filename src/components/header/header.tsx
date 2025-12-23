@@ -7,7 +7,7 @@ const Header = () => {
     const { theme, setTheme } = useTheme();
 
     return (
-        <header className="ring-foreground/10 bg-card text-card-foreground flex items-center justify-between rounded-b-2xl px-5 pt-2 pb-3.5 ring-1">
+        <header className="ring-foreground/10 bg-card text-card-foreground flex items-center justify-between rounded-b-2xl p-6 pt-5 ring-1">
             <div className="flex flex-col">
                 <span className="text-2xl">Дополнительные услуги</span>
                 <span>Выберите дополнительные услуги для вашего полёта</span>
