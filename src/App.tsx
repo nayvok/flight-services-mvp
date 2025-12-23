@@ -1,7 +1,7 @@
-import { Button } from '@/components/ui/button.tsx';
+import MainLayout from '@/layout/main-layout.tsx';
 
 function App() {
-    return <Button>Shadcn</Button>;
+    return <MainLayout></MainLayout>;
 }
 
 export default App;
