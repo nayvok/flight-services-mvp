@@ -30,7 +30,7 @@ const Cart = ({ selectedServices, totalPrice, onRemoveService }: CartProps) => {
         <Card
             className={cn(
                 'sticky top-8 h-fit w-90',
-                'max-[1024px]:fixed max-[1024px]:top-auto max-[1024px]:bottom-0 max-[1024px]:left-0 max-[1024px]:w-full max-[1024px]:flex-row max-[1024px]:items-center max-[1024px]:justify-between max-[1024px]:rounded-b-none',
+                'max-[1024px]:fixed max-[1024px]:top-auto max-[1024px]:bottom-0 max-[1024px]:left-0 max-[1024px]:w-full max-[1024px]:flex-row max-[1024px]:items-center max-[1024px]:justify-between max-[1024px]:rounded-b-none max-[426px]:gap-0',
             )}
         >
             <CardHeader className="max-[1024px]:w-full">
@@ -54,7 +54,7 @@ const Cart = ({ selectedServices, totalPrice, onRemoveService }: CartProps) => {
                 </CardDescription>
                 <CardTitle className="max-[1024px]:hidden">Итого</CardTitle>
             </CardHeader>
-            <CardContent className="flex max-h-125 flex-col gap-2 overflow-auto max-[1024px]:hidden">
+            <CardContent className="custom-scrollbar flex max-h-125 flex-col gap-2 overflow-auto max-[1024px]:hidden">
                 {selectedServices.length === 0 ? (
                     <p className="text-muted-foreground text-sm">
                         Выберите услуги
