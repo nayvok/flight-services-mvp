@@ -1,9 +1,10 @@
 # Flight Services MVP
 Тестовое задание - веб-приложение для бронирования авиауслуг.
-<div>
-  <img width="1531" height="992" alt="image" src="https://github.com/user-attachments/assets/89d43d1d-eda2-4835-82b9-83f5beed1314" />
-  <img width="434" height="850" alt="image" src="https://github.com/user-attachments/assets/768996a4-e8e3-494d-810d-d6cee994721d" />
-</div>
+## Desktop
+![image](https://github.com/user-attachments/assets/118954c0-b5e8-4494-8f0a-bb24d61b2256)
+
+## Mobile
+![image](https://github.com/user-attachments/assets/43d466a3-97fb-4caf-a2b0-c764893777b6)
 
 ## Запуск в режиме разработки
 
